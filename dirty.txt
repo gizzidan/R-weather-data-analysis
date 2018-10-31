@@ -1,0 +1,17 @@
+1. First, I read the files into R. I used read.csv for the csv files and read.csv2 for the .txt file that was separated with ';'
+
+2. I went through each city file and corrected what was wrong. I primarily used summary() and hist() to get an idea of any issues.
+   
+
+ABC: Converted the temperature from C to F, removed any text in the Wind Speed column, removed any outliers in the Temperature and Wind Speed columns.
+    
+KLM: Reordered the data columns correctly (doesn't really matter, but I did it anyway), removed any text in the Wind Speed column, removed any outliers in the Temperature and Wind Speed columns.
+    
+PQR: Reordered the data columns correctly, converted Wind Speed from KPH to MPH, removed any outliers in the Temperature and Wind Speed columns.
+    
+XYZ: Removed any text from the Wind Speed column, removed any outliers in the Temperature and Wind Speed columns.
+
+
+3. Find mean Wind Speed for March, 2006 for each city.
+
+4. Find mean Temperature for 2006 for each city.

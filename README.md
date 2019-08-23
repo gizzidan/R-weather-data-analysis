@@ -1,2 +1,2 @@
-# R-practice-weather
-practice cleaning and analyzing weather data.
+# R-Weather-Data-Analysis
+Here, I cleaned and analyzed weather data.
